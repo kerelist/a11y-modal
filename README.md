@@ -7,7 +7,9 @@ Include `modal.js` in your global scrips, on the page, or in your component, dep
 The modal needs to be initialized with three parameters:
 
 `exitButton` {Elem} - Element that, when clicked, should close the modal
+
 `modal` {Elem} - The modal display element (whole container)
+
 `bodyOverlay` {String} - Name of the class applied to an overlay div (overlay style controlled manually by CSS)
 
 The included init script runs with `initModal(modal.exit, modal.container, modal.overlay);`; these variables can be seen/set at the top of the file.
